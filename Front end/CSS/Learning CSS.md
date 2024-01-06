@@ -16,15 +16,16 @@ selector1, selector2 {
 }
 ```
 ## Property Glossary
-<details >
-<summary>See</summary>
-- width
-- background-color
-- margin-left
-- margin-right
-- background-image
-- text-align
-</details>
+<details>
+	<summary>See</summary>
+		1. width<br>
+		2. background-color<br>
+		3. margin-left<br>
+		4. margin-right<br>
+		5. background-image<br>
+		6. text-align<br>
+</details>  
+
 ## Similarity between Mobile and desktops
 It's need a meta element with special **content** attribute 
 ```html

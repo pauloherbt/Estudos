@@ -38,3 +38,4 @@ Desenvolvimento guiado por testes, é uma forma de desenvolver software, consist
 ### Previsibilidade
 + O resultado de um teste deve ser sempre o mesmo para uma dada entrada de dados.
 + Não pode depender de fatores variáveis, como timestamp ou valores aleatórios.
+[Testes em java](Testes%20em%20java.md)

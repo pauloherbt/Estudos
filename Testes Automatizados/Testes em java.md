@@ -19,3 +19,4 @@ Utilizamos a biblioteca JUnit 5
 + @AfterAll -> dps de todos
 + BeforeEach -> execcuta antes de cada um
 + AfterEach -> dps de cada um
+[Mockito](Mockito.md)

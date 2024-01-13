@@ -26,3 +26,5 @@ void deleteShouldReturnNoContentWhenIdExists() throws Exception {
     .andExpect(status().isNoContent());  
 }
 ```
+### Object Mapper
+Essa classe pertence ao pacote jackson, com ela você pode realizar diversas operações nos objetos, serializar e deserializar para json, realizar operações  e etc.

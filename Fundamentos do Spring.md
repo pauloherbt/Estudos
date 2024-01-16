@@ -11,6 +11,7 @@ Sub dividido em 7 módulos:
 + Intrumentation
 + Messaging
 + Test
+
 O grupo core está definido todas as classes básicas e avançadas, partes fundamentais do framework, além do controle das configurações que são executadas em tempo de execução: Annotations, arquivos xml.
 Módulo **Data **é responśavel por facilitar a comunicação com o banco de dados por meio de transações.
 Módulo **Web** contém recursos para implementação da camada Web da aplicação, como Mvc, WebServices.
@@ -27,7 +28,8 @@ A maneira mais efetiva é utilizar um ponto de injeção, dentro da classe A, te
 O spring utiliza a injeção de dependência para aplicar a inversão de controle na aplicação, toda essa configuração e o funcionamento está presente no Core Container, a base do framework.
 **Aplicação iniciada**:
 Core container inicia carregando as configurações pré definidas em classes ou arquivos xml, define as dependências e as cria através da Inversão de controle, são destruídas quando não mais utilizadas.
-No contexto do Spring, tais dependências recebem o nome de **Beans**, objetos no qual possuem ciclo de vida gerenciado pelo container IoC do Spring. 
+No contexto do Spring, tais dependências recebem o nome de **Beans**, objetos no qual possuem ciclo de vida gerenciado pelo container IoC do Spring.
+
 ![](img/containerLifeCycle.png)
 ## Beans
 Objetos no qual são instanciados e monitorados pelo  contêiner do Spring IoC. Ele também tem um ciclo de vida que consiste em ser instanciado pelo contêiner, então as dependências dele são injetadas, após isso é chamado o seu método de inicialização e é enviado ao cliente, a classe que possui essa dependência, então ele é utilizado e quando não for mais necessário é desfeito.

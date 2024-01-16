@@ -1,7 +1,7 @@
 <-[Testes em java](Testes%20em%20java.md)
 # Introdução
 É um framework para testes **unitários** com o objetivo de instanciar classes e controlar o comportamento dos métodos.
-![](img/mockscheme.png)
+![](../img/mockscheme.png)
 
 Simula o comportamento de uma classe, sem executar a ação do verdadeiro método.
 Isso é importante para, **testar a unidade.** Pois conseguimos isolar o comportamento de um metodo, por isso são chamados de testes unitários.

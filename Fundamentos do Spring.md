@@ -13,7 +13,7 @@ Sub dividido em 7 módulos:
 + Test
 
 O grupo core está definido todas as classes básicas e avançadas, partes fundamentais do framework, além do controle das configurações que são executadas em tempo de execução: Annotations, arquivos xml.
-Módulo **Data **é responśavel por facilitar a comunicação com o banco de dados por meio de transações.
+Módulo **Data**  é responśavel por facilitar a comunicação com o banco de dados por meio de transações.
 Módulo **Web** contém recursos para implementação da camada Web da aplicação, como Mvc, WebServices.
 Módulo **Test** é responsável pela camada de Testes, fornece facilidade na hora de testar a aplicação.
 ![](img/springScheme.png)
@@ -39,3 +39,4 @@ O Spring precisa saber quais classes serão tratadas como beans, para poder gere
 + Service
 + Repository
 + Controller
+->[API REST & RESTful](API%20REST%20&%20RESTful.md)

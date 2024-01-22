@@ -38,10 +38,10 @@ figcaption> vc usa pra colcoar uma legenda ou descrição bem abaixo da foto
 
 vc pode usar o elemento em> para emfatizar
 
-## Negrito
+## Destacar
 
-vc pode usar o elemento strong> pra deixar texto em negrito
-
+vc pode usar o elemento strong> pra deixar texto em negrito, mas também pode ser usado para destacar.
+> Uma alternativa é usar o elemento **span**, tem o mesmo comportamento do strong, mas não destaca o texto.
 ## Formularios
 
 Usado para recolher informações fornecidas pelo usuário e enviar para outro orgão.
@@ -74,10 +74,10 @@ elemento usado para agrupar labels e inputs dentro de um elemento formulario
 ### Legend
 
 É um atributo do fieldset, que serve para dar um contexto ao usuário sobre a input que ele deve colocar naquela parte do formulário.
-
 ## Footer Element
 
 O rodapé da página é dado pelo elemento footer que é uma section
 ### Div Element
 Usado para layout de design
+
 [Learning CSS](Learning%20CSS.md)

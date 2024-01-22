@@ -58,4 +58,18 @@ Useful to prevents a element grow to much and to maintain the harmony.
 The property ``font-family`` help us to set one font, and it can receives a _fallback_ in the case of failed to load the first font, by adding a comma followed the other font.
 It's possible to set the font style, using the ``font-style`` property, with values: normal, italic, oblique.
 ## Separating sections
-You can use hr element to make appears a light gray line. You can change the height, by specifying a value for the **height** property.
+You can use **hr** element to make appears a light gray line. You can change the height, by specifying a value for the **height** property.
+## Pseudo-selector
+You can change properties of a link using 
+```css
+a:active{
+
+}
+a:hover{
+
+}
+a:visited{
+}```
+This way you can change de style of anchor element based on your state.
+## Box sizing
+This property make all the children elements don't crossing the boundaries of the father element, setting its value to **"border-box" **and you can change the paddings, margin or whatever in children element , without affect the container.
